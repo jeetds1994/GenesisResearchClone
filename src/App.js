@@ -20,7 +20,7 @@ class App extends Component {
   changeSection = (e, { name }) => {
     this.setState({activeSection: name})
   }
-  
+
   render() {
     return (
       <div className="App">
@@ -32,6 +32,10 @@ class App extends Component {
         {this.state.activeSection === "Industries" && <Industries />}
         {this.state.activeSection === "Leadership" && <Leadership />}
         {this.state.activeSection === "Careers" && <Careers />}
+
+        {this.state.activeSection === "Contact Us" && <h1 className="white">Not Ready Yet! :P </h1>}
+        {this.state.activeSection === "News" && <h1 className="white">Not Ready Yet! :P </h1>}
+        {this.state.activeSection === "ISPOR 2017" && <h1 className="white">Not Ready Yet! :P </h1>}
       </div>
     );
   }
