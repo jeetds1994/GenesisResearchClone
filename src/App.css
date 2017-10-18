@@ -75,7 +75,7 @@
 
 .message{
   padding-top: 50px;
-  font-size: 50px;
+  font-size: 30px;
 }
 
 .servicesTitle{
@@ -98,7 +98,7 @@
 }
 
 #leadership{
-  height: 750px;
+  height: 675px;
   position: relative;
   background-image: url("https://www.gens1.com/genesisSite/images/random1.jpg");
 }

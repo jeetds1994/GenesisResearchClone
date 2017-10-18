@@ -20,12 +20,11 @@ class App extends Component {
   changeSection = (e, { name }) => {
     this.setState({activeSection: name})
   }
-
-
-
+  
   render() {
     return (
       <div className="App">
+        <h3 className="white">This is a demo of Genesis Research.</h3>
         <NavBar activeSection={this.state.activeSection} changeSection={this.changeSection}/>
         {this.state.activeSection === "Home" && <Home />}
         {this.state.activeSection === "About Us" && <About />}
