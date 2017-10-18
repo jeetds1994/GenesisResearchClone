@@ -1,0 +1,145 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.home-image{
+  width: 50%;
+  height: 50%;
+}
+
+
+#footer{
+  position:absolute;
+ bottom:0;
+ width:100%;
+ height: 200px;   /* Height of the footer */
+}
+
+.about-footer-img:hover{
+  transition: all .07s ease;
+  transform: scale(1.2);
+}
+
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    color: orange;
+}
+
+#aboutBackground{
+  background-image: url("https://www.gens1.com/genesisSite/images/WhoWeAre4.jpg");
+  height: 800px;
+  color: orange;
+  transition: all 1.0s ease;
+}
+
+#home{
+  background-image: url("https://www.gens1.com/genesisSite/images/frontPageBackground.jpg");
+}
+
+#title{
+  font-size: 50px;
+  padding-top: 30px;
+  color: orange;
+}
+.title{
+  padding-top: 50px;
+  font-size: 70px;
+}
+
+.message{
+  padding-top: 50px;
+  font-size: 50px;
+}
+
+.servicesTitle{
+  padding-top: 40px;
+  font-size: 40px;
+}
+
+.servicesSubtitle{
+  padding-top: 20px;
+  font-size: 25px;
+}
+.servicesMessage{
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+#subTitle{
+  font-size: 35px;
+  color: orange;
+}
+
+#leadership{
+  height: 750px;
+  position: relative;
+  background-image: url("https://www.gens1.com/genesisSite/images/random1.jpg");
+}
+
+.white{
+    color: white;
+}
+
+#lee{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  top: 50%;
+  right: 25%;
+  background-image: url("https://www.gens1.com/genesisSite/images/add.png");
+}
+
+#arikian{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  top: 50%;
+  padding-left: 40px;
+}
+
+#corvino{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  top: 60%;
+  padding-left: 600px;
+}
+
+#zivkovic{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  top: 70%;
+  padding-left: 1100px;
+}
